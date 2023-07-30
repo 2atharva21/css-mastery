@@ -1,0 +1,29 @@
+a[target='_blank']{
+    color: rgb(72, 10, 10) ;
+}
+a[target='_self']{
+    color: aquamarine;
+}
+.container{
+    background-color: blueviolet;
+}
+.action{
+    background-color: crimson;
+    margin: 2px 3px ;
+    padding: 4px 5px;
+}
+input[type='text']{
+    color: aquamarine;
+    margin: 1px;
+    padding: 1px;
+}
+input[type='password']{
+    color: aquamarine;
+    margin: 1px;
+    padding: 1px;
+}
+input[type='Age']{
+    color: aquamarine;
+    margin: 1px;
+    padding: 1px;
+}

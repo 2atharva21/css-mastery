@@ -1,0 +1,25 @@
+.container{
+    border-radius: 12px;
+    height: 500px;
+    background-color: cornflowerblue;
+    width: 94%;
+    border: 2px solid red;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+
+    align-items:baseline;
+    justify-content:space-between;
+    
+}
+.item{
+    width: 157px;
+    height: 201px;
+    border: 2px solid rgba(3, 28, 103, 0.361);
+    margin: 10px;
+    background-color: cornflowerblue;
+    padding: 15px;
+    border-radius: 12px;
+    display: flex;
+    flex-wrap: wrap;
+}

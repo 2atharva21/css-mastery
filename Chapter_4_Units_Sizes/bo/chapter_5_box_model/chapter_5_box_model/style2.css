@@ -1,0 +1,39 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    background-color: rgb(143, 166, 173);
+}
+.container{
+
+    
+    border: 2px solid honeydew;
+    padding: 34px;
+    margin: 32px auto;
+    border-radius: 12px;
+    width: 600px;
+    text-align: center;
+}
+.btn{
+    background-color: cornsilk;
+    padding: 12px;
+    margin: 9px;
+    border: 2px solid black;
+    width: auto;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+a{
+text-decoration: none;
+color: black;
+}
+ a:hover{
+    color: cornflowerblue;
+}
+ button:hover{
+    color:cornflowerblue;
+    background-color: aquamarine;
+ }
+ a:visited{
+    background-color: aqua;
+ }

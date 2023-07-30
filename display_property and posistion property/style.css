@@ -1,0 +1,14 @@
+.img{
+width: 185px;
+/* border: 1px solid; */
+border-radius: 16px;
+padding: 66px 116px;
+margin: 18px 218px;
+text-align: center;
+}
+.top{
+    text-align: none;
+    overflow:none;
+    float: left;
+    
+}

@@ -1,0 +1,129 @@
+header::after {
+    background: url("https://source.unsplash.com/user/j4inam/1600x900")no-repeat center/cover;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 827px;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+*{
+    font-family: 'Inter', sans-serif;
+    background-color: transparent;
+    color: #000;
+   
+    
+} 
+.left{
+   
+    color: aliceblue;
+    display: inline-block;
+    position: absolute;
+    left: 39px;
+    top: 46px;
+    border-radius: 12px;
+    width: auto;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+}
+.left img{
+    width: 123px;
+    cursor: pointer;
+    border-radius: 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+div{
+   
+    padding: 1px;
+    text-align: center;
+}
+.mid{
+    display: block;
+    width: 33%;
+   margin: -17px 381px;
+    
+   display: flex;
+   flex-wrap: wrap;
+    text-decoration: none;
+   border-radius: 12px;
+   box-sizing: border-box; 
+
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+text-decoration: none;
+padding: 2px 8px;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.navbar li a:hover{
+    text-decoration: underline;
+ color: rgb(121, 72, 12);   
+
+}
+.right{
+    position: absolute;
+    border-radius: 12px;
+    box-sizing: border-box;
+    right: 36px;
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-block;
+    
+    top: 46px;   
+}
+.btn{
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 8px 9px;
+    /* position: static; */
+    margin: 9px 7px;
+    box-shadow:12px rgb(71, 13, 13) ;
+    display: flex;
+    flex-wrap: wrap;
+
+   
+}
+.btn:hover{
+color: chocolate;
+border-color: rgb(183, 116, 60);
+}
+.container{
+    border: 2px solid black;
+    padding: 14px 62px;
+    margin: 121px 194px;
+    border-radius: 12px;
+    width: 199px;
+}
+h1{
+    text-align: center;
+    margin: 25px 0px;
+    display: inline-block;
+}
+.form-group input{
+margin: 13px -52px;
+    padding: 7px 42px;
+    border: 2px solid rgb(108, 108, 108);
+    border-radius: 6px;
+    color: #000;
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+}.form-group input:hover{
+    color:rgba(59, 0, 0, 0.509) ;
+}

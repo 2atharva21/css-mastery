@@ -1,0 +1,25 @@
+.box{
+    width: 150px;
+    height: 150px;
+    border: 2px solid red;
+    background-color: burlywood;
+    border-radius: 12px;
+}
+#box1{
+background-color: cornsilk;
+position: relative;
+top: 49px;
+z-index: 34;
+}
+#box2{
+    background-color: aquamarine;
+    position: relative;
+    top: 14px;
+    z-index: 35;
+}
+#box3{
+    background-color: rgb(221, 155, 23);
+}
+#box4{
+    background-color: rgb(136, 17, 138);
+}

@@ -1,0 +1,44 @@
+.container{
+ background-color: aquamarine;
+ border: 2px solid red;
+ border-radius: 8px;
+ height: 662px;
+
+}
+.box{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(181, 82, 52);
+    border: 2px solid rgb(63, 135, 152);
+    border-radius: 8px;
+    box-shadow: 11px 11px 31px 6px #645555;
+    position: relative;
+    animation-name: atharva1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes atharva1{
+0%{
+top: 0px;
+left: 0px;
+}
+25%{
+    top: 250px;
+    left: 0px;
+}
+75%{
+    top: 250px;
+    left: 250px;
+}
+100%{
+    top: 0px;
+    left: 250px;
+}
+}
+@keyframes atharva{
+    from{
+   width: 200px;
+    }
+    to{width: 1400px;
+    }
+}

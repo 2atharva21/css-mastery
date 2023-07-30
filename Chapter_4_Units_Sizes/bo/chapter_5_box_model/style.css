@@ -1,0 +1,17 @@
+.container{
+    margin: 8rem;
+    background-color: bisque;
+    border: 3px solid black;
+    padding: 5rem 40px 70px 40px;
+    box-sizing: content-box;
+    border-radius: 51px;
+    font-family: 'Roboto Mono', monospace;
+}
+#first{
+    float: left;
+    width: 50%;
+}
+#second{
+    float: left;
+    width: 50%;
+}

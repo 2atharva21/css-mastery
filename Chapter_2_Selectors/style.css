@@ -1,0 +1,27 @@
+*{
+font-family: monospace;
+}
+p{
+
+
+    color: purple;
+    font-size: 64px;
+    text-align: center;
+}
+body{
+    font-size: 22px;
+    border: 12px solid red;
+    border-radius: 12px;
+}
+
+p{
+font-style: monospace;
+}
+h1{
+    color: blue;
+}
+h1 span{
+    text-transform: uppercase;
+    background-color: gold;
+
+} 
